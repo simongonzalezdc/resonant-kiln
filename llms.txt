@@ -13,7 +13,7 @@
 
 - License: MIT.
 - Every number script-backed: the `extract/` scripts regenerate the tables; hands-on totals reproduce only at the pinned database cutoff stated in the doc.
-- 1,109 primary trials + 92 auxiliary rows across 13 delegation-bench result logs; banked throughput 17.6 tok/s decode, 224 tok/s prefill at 8k; overnight hold 11h15m, $0.03-0.06 of electricity at average residential rates.
+- 1,109 primary trials + 92 auxiliary rows across 13 delegation-bench result logs; banked throughput 17.6 tok/s decode, 224 tok/s prefill at 8k, 213 at 16k; overnight hold 11h15m, $0.03-0.06 of electricity at average residential rates.
 - Honest gap: hands-on minutes are daily totals, not per-task; electricity is computed from average rates, not metered at the wall.
 - Hardware disclosed in the doc: a 27B served from a mini-PC; the small-model run used a laptop Mac.
 
