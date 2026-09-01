@@ -1,0 +1,130 @@
+{
+ "schema_version": 3,
+ "extracted_at_utc": "2026-09-01T01:38:11Z",
+ "db_cutoff_utc": "2026-09-01T01:30:36Z",
+ "method": {
+  "clustering_gap_min": 5,
+  "day_timezone": "America/Los_Angeles",
+  "day_split": "blocks split at local midnight; each side keeps its own minutes",
+  "turn_filter": "role=user; exclude metadata.visibility=model-only; exclude metadata.source in {todo_reminder, system_reminder}",
+  "span_rule": "segment minutes = max(segment span,1.0); single-turn block = 1.0; idle gaps under 5 min count as active"
+ },
+ "human_turns": 8708,
+ "days": {
+  "2026-07-01": {
+   "minutes": 17.0,
+   "blocks": 10,
+   "turns": 15
+  },
+  "2026-07-02": {
+   "minutes": 69.6,
+   "blocks": 33,
+   "turns": 67
+  },
+  "2026-07-03": {
+   "minutes": 253.6,
+   "blocks": 54,
+   "turns": 186
+  },
+  "2026-07-04": {
+   "minutes": 181.1,
+   "blocks": 47,
+   "turns": 151
+  },
+  "2026-07-05": {
+   "minutes": 51.6,
+   "blocks": 11,
+   "turns": 61
+  },
+  "2026-08-14": {
+   "minutes": 508.2,
+   "blocks": 45,
+   "turns": 548
+  },
+  "2026-08-15": {
+   "minutes": 678.6,
+   "blocks": 38,
+   "turns": 678
+  },
+  "2026-08-16": {
+   "minutes": 635.3,
+   "blocks": 65,
+   "turns": 742
+  },
+  "2026-08-17": {
+   "minutes": 688.2,
+   "blocks": 66,
+   "turns": 832
+  },
+  "2026-08-18": {
+   "minutes": 480.1,
+   "blocks": 70,
+   "turns": 494
+  },
+  "2026-08-19": {
+   "minutes": 343.5,
+   "blocks": 56,
+   "turns": 238
+  },
+  "2026-08-20": {
+   "minutes": 642.4,
+   "blocks": 54,
+   "turns": 471
+  },
+  "2026-08-21": {
+   "minutes": 581.1,
+   "blocks": 53,
+   "turns": 445
+  },
+  "2026-08-22": {
+   "minutes": 237.2,
+   "blocks": 55,
+   "turns": 200
+  },
+  "2026-08-23": {
+   "minutes": 113.7,
+   "blocks": 24,
+   "turns": 94
+  },
+  "2026-08-24": {
+   "minutes": 233.2,
+   "blocks": 20,
+   "turns": 233
+  },
+  "2026-08-25": {
+   "minutes": 356.2,
+   "blocks": 40,
+   "turns": 418
+  },
+  "2026-08-26": {
+   "minutes": 435.3,
+   "blocks": 53,
+   "turns": 431
+  },
+  "2026-08-27": {
+   "minutes": 278.0,
+   "blocks": 41,
+   "turns": 307
+  },
+  "2026-08-28": {
+   "minutes": 621.3,
+   "blocks": 40,
+   "turns": 618
+  },
+  "2026-08-29": {
+   "minutes": 525.2,
+   "blocks": 35,
+   "turns": 423
+  },
+  "2026-08-30": {
+   "minutes": 770.2,
+   "blocks": 45,
+   "turns": 643
+  },
+  "2026-08-31": {
+   "minutes": 510.3,
+   "blocks": 33,
+   "turns": 413
+  }
+ }
+}

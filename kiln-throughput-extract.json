@@ -1,0 +1,70 @@
+{
+ "schema_version": 1,
+ "extracted_at_utc": "2026-09-01T01:32:30Z",
+ "method": "headline fields copied verbatim from banked stack-bench summaries; never recomputed",
+ "sources": [
+  {
+   "file": "results/LIVE-PARITY-20260830.json",
+   "sha256": "754aee820ded12cb22bdca3e942afb83f1a322f6e1e4823745b3ed008c0bd1c0"
+  },
+  {
+   "file": "results/hq64k/fork-summary.json",
+   "sha256": "1697c8a0a01521e681d563220e1cf8caf6b12b40771d66ecfbd7527f1e4fd0be"
+  },
+  {
+   "file": "results/hq64k/stock-summary.json",
+   "sha256": "9509417c06a6ebdcf9ad12cea1618803fecdd797768ab3a2f13325b37858cca5"
+  }
+ ],
+ "results": {
+  "results/LIVE-PARITY-20260830.json": {
+   "decode_tps": {
+    "mean_tps": 17.6,
+    "min": 12.8,
+    "max": 22.3,
+    "n": 2
+   },
+   "decode_range": null,
+   "prefill_by_context": {
+    "16000": 213.4,
+    "8000": 223.9
+   },
+   "wall_s_total": 552.3,
+   "env_note": "0.1.0"
+  },
+  "results/hq64k/fork-summary.json": {
+   "decode_tps": {
+    "mean_tps": 11.3,
+    "min": 11.3,
+    "max": 11.3,
+    "n": 2
+   },
+   "decode_range": null,
+   "prefill_by_context": {
+    "16000": 211.3,
+    "32000": 196.9,
+    "64000": 170.6,
+    "8000": 218.2
+   },
+   "wall_s_total": 3106.8,
+   "env_note": "0.1.1"
+  },
+  "results/hq64k/stock-summary.json": {
+   "decode_tps": {
+    "mean_tps": 16.4,
+    "min": 11.2,
+    "max": 21.6,
+    "n": 2
+   },
+   "decode_range": null,
+   "prefill_by_context": {
+    "16000": 217.9,
+    "32000": 192.9,
+    "64000": 153.6,
+    "8000": 235.4
+   },
+   "wall_s_total": 3285.6,
+   "env_note": "0.1.0"
+  }
+ }
+}
